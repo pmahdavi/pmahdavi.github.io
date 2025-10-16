@@ -28,7 +28,7 @@
                 <h3><a href="https://huggingface.co/papers/2509.11167">Harnessing Optimization Dynamics for Curvature-Informed Model Merging</a></h3>
                 <p class="authors"><strong>Pouria Mahdavinia</strong>, Hamed Mahdavi, Niloofar Mireshghallah, Mehrdad Mahdavi</p>
                 <p class="venue">Under review</p>
-                <p class="description">Benchmarked capability-based model merging for post-training at 8B scale. Proposed a novel task-vector pruning method called Fast-Fisher-Grafting (FFG), and integrated all findings in a new model merging algorithm: the OTA framework.</p>
+                <p class="description">Benchmarked capability-based model merging for post-training at 8B scale. Leveraged this benchmark to study why model merging works and how it can be improved in this setting. Proposed a novel task-vector pruning method called Fast-Fisher-Grafting (FFG) and showed it's critical for merging performance. Integrated all findings into a new model merging algorithm: the OTA framework.</p>
                 <div class="paper-links">
                     <a href="https://huggingface.co/papers/2509.11167" class="paper-link">Paper</a>
                     <a href="https://github.com/pmahdavi/ota-merge" class="paper-link">Code</a>
@@ -39,7 +39,7 @@
                 <h3><a href="https://openreview.net/pdf?id=W3D3TVo9a3">Low-rank Momentum Factorization for Memory Efficient Training</a></h3>
                 <p class="authors"><strong>Pouria Mahdavinia</strong>, Mehrdad Mahdavi</p>
                 <p class="venue">TMLR 2025</p>
-                <p class="description">Developed MoFaSGD, the first memory-efficient Muon optimizer variant, achieving consistent throughput gains with 50% GPU memory reduction. Validated on NanoGPT and AllenAI Tulu3-SFT at 8B scale.</p>
+                <p class="description">Developed MoFaSGD, the first memory-efficient Muon optimizer variant, achieving consistent and high throughput gains compared to other memory-efficient optimizers while maintaining LoRA-like GPU memory usage compared to Muon. Validated on NanoGPT and Allen AI's Tulu3-SFT replication at 8B parameter scale. The core idea is to keep momentum on a low-rank manifold using a low-rank factorized representation of the full-rank momentum matrix.</p>
                 <div class="paper-links">
                     <a href="https://openreview.net/pdf?id=W3D3TVo9a3" class="paper-link">Paper</a>
                     <a href="https://github.com/pmahdavi/MoFaSGD" class="paper-link">Code</a>
